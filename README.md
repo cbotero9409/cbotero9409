@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Camilo</h1>
 <h3 align="center">A passionate full-stack developer from Colombia, with preference towards backend </h3>
 
+- 🔭 I’m currently working with **Ruby on Rails**
+
 - 🌱 I’m currently learning **React and Redux**
 
 - 📫 How to reach me **cbotero2709@gmail.com**
