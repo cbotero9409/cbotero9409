@@ -3,8 +3,6 @@
 
 - 🔭 I’m currently working with **Ruby on Rails**
 
-- 🌱 I’m currently learning **React and Redux**
-
 - 📫 How to reach me **cbotero2709@gmail.com**
 
 - ⚡ Fun fact **I enjoy coding**
