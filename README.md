@@ -7,7 +7,7 @@
 
 - 📫 How to reach me **cbotero2709@gmail.com**
 
-- ⚡ Fun fact **I enjoy coding, for me it's like a game hehe**
+- ⚡ Fun fact **I enjoy coding**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
