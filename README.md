@@ -6,16 +6,17 @@
 
 ### About me
 
-Full-stack developer with 5 years of experience, specialized in **Ruby on Rails** and focused on the backend.
+Full-stack developer with 5 years of experience, 4 of them with **Ruby on Rails**, focused on the backend.
 
-- 🏦 For 4 years I worked on a large financial platform used by cooperatives across Colombia: features from database to UI, ~100 bugs fixed in my last year, and the credit payment projection module.
-- 🌱 Today I'm deepening my modern Rails skills through a personal project, built with AI-assisted development (Claude Code), reviewing and manually testing critical code.
+- 🏦 For almost four years I worked on a large legacy financial platform built on Rails 3, used by cooperatives across Colombia: features across the full stack, ~100 bugs fixed in my last year, and the credit payment projection module, which calculates what a client owes on any future date.
+- 🌱 Today I'm deepening my modern Rails skills through a personal project built with Claude Code, where I review and adjust the generated code and back it with automated tests.
 - 🤝 Looking for a remote role on a collaborative, human team where I can keep growing and let my results speak for themselves.
 
 ### Featured project
 
-**[Café Orders](https://github.com/cbotero9409/cafe_orders)** — Rails 8 application for managing café orders, with a web interface (Hotwire) and an API. Built with PostgreSQL and tested with RSpec.
-Designed for data integrity: prices stored as integers (COP), unit price and order total saved as financial snapshots, and database constraints on quantity, price and stock.
+**[Café Orders](https://github.com/cbotero9409/cafe_orders)**: Rails 8 application for managing café orders, with a web interface (Hotwire, Tailwind) and a JSON API. Built with PostgreSQL and tested with RSpec.
+Includes Devise authentication, a service object for order creation shared by web and API, and a background job for order confirmation emails.
+Designed for data integrity: database constraints on quantity, price and stock, prices stored as integers (COP), the unit price saved on each order item, and orders that can't be destroyed once they have items.
 
 *Status: in progress.*
 
@@ -25,7 +26,6 @@ Designed for data integrity: prices stored as integers (COP), unit price and ord
 <a href="https://www.ruby-lang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40"/></a>
 <a href="https://rubyonrails.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails" width="40" height="40"/></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
-<a href="https://www.php.net" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/></a>
 <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/></a>
 <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="40" height="40"/></a>
@@ -36,9 +36,9 @@ Designed for data integrity: prices stored as integers (COP), unit price and ord
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/></a>
 </p>
 
-**Also:** Hotwire · RSpec · SQL Server · Azure DevOps · Yii2 · Composer · Sucker Punch
+**Also:** Hotwire · RSpec · SQL Server · Azure DevOps · Yii2 (PHP) · Composer · Sucker Punch
 
-**Next on my list:** Docker · AWS deployment · Sidekiq
+**Next on my list:** Docker · AWS deployment · Sidekiq + Redis · CI
 
 ### Let's connect
 
