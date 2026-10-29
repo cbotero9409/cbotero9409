@@ -14,9 +14,7 @@ Full-stack developer with 5 years of experience, 4 of them with **Ruby on Rails*
 
 ### Featured project
 
-**[Café Orders](https://github.com/cbotero9409/cafe_orders)**: Rails 8 application for managing café orders, with a web interface (Hotwire, Tailwind) and a JSON API. Built with PostgreSQL and tested with RSpec.
-Includes Devise authentication, a service object for order creation shared by web and API, and a background job for order confirmation emails.
-Designed for data integrity: database constraints on quantity, price and stock, prices stored as integers (COP), the unit price saved on each order item, and orders that can't be destroyed once they have items.
+**[Café Orders](https://github.com/cbotero9409/cafe_orders)**: Rails 8 application for managing café orders, with a web interface (Hotwire, Tailwind) and a JSON API. Built with PostgreSQL and tested with RSpec (FactoryBot, Shoulda Matchers). Includes Devise authentication, service objects (order creation shared by web and API, and profile updates), and a background job for order confirmation emails. Designed for data integrity: database constraints on quantity, price and stock, prices stored as integers (COP), the unit price saved on each order item, and orders that can't be destroyed once they have items. GitHub Actions CI runs RuboCop, Brakeman and the RSpec suite, and a Claude Code review subagent checks changes for risks, test quality and docs.
 
 *Status: in progress.*
 
@@ -36,9 +34,9 @@ Designed for data integrity: database constraints on quantity, price and stock, 
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/></a>
 </p>
 
-**Also:** Hotwire · RSpec · SQL Server · Azure DevOps · Yii2 (PHP) · Composer · Sucker Punch
+**Also:** Hotwire · RSpec · SQL Server · Azure DevOps · Yii2 (PHP) · Composer · Sucker Punch · CI basics (GitHub Actions)
 
-**Next on my list:** Docker · AWS deployment · Sidekiq + Redis · CI
+**Next on my list:** Docker · AWS deployment · Sidekiq + Redis
 
 ### Let's connect
 
